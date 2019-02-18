@@ -12,9 +12,15 @@
 		67B4CEA8221B40C100E8AB99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B4CEA6221B40C100E8AB99 /* Main.storyboard */; };
 		67B4CEAA221B40C300E8AB99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67B4CEA9221B40C300E8AB99 /* Assets.xcassets */; };
 		67B4CEAD221B40C300E8AB99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B4CEAB221B40C300E8AB99 /* LaunchScreen.storyboard */; };
+		67B4CEB6221B4F4A00E8AB99 /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B4CEB5221B4F4A00E8AB99 /* images.png */; };
+		67B4CEB9221B55EA00E8AB99 /* formcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B4CEB8221B55EA00E8AB99 /* formcell.swift */; };
+		67B4CEBB221B60C500E8AB99 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67B4CEBA221B60C400E8AB99 /* GoogleService-Info.plist */; };
+		AAA523ECE295B541CD522759 /* Pods_realTimeChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEBA377082494662B65FE71C /* Pods_realTimeChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FAF6BB0CD594B3577D8E747 /* Pods-realTimeChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realTimeChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-realTimeChat/Pods-realTimeChat.debug.xcconfig"; sourceTree = "<group>"; };
+		158920ED65599AD9EBADC4F0 /* Pods-realTimeChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realTimeChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-realTimeChat/Pods-realTimeChat.release.xcconfig"; sourceTree = "<group>"; };
 		67B4CE9F221B40C100E8AB99 /* realTimeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = realTimeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B4CEA2221B40C100E8AB99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67B4CEA4221B40C100E8AB99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,10 @@
 		67B4CEA9221B40C300E8AB99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67B4CEAC221B40C300E8AB99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67B4CEAE221B40C300E8AB99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67B4CEB5221B4F4A00E8AB99 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
+		67B4CEB8221B55EA00E8AB99 /* formcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formcell.swift; sourceTree = "<group>"; };
+		67B4CEBA221B60C400E8AB99 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DEBA377082494662B65FE71C /* Pods_realTimeChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_realTimeChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAA523ECE295B541CD522759 /* Pods_realTimeChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				67B4CEA1221B40C100E8AB99 /* realTimeChat */,
 				67B4CEA0221B40C100E8AB99 /* Products */,
+				A8DB70FF40738EB2CA1D62E5 /* Pods */,
+				830E510BFFD00E090744ECD7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +67,50 @@
 		67B4CEA1221B40C100E8AB99 /* realTimeChat */ = {
 			isa = PBXGroup;
 			children = (
+				67B4CEB7221B55D300E8AB99 /* viewCell */,
+				67B4CEB4221B4F3500E8AB99 /* resource */,
 				67B4CEA2221B40C100E8AB99 /* AppDelegate.swift */,
 				67B4CEA4221B40C100E8AB99 /* ViewController.swift */,
 				67B4CEA6221B40C100E8AB99 /* Main.storyboard */,
 				67B4CEA9221B40C300E8AB99 /* Assets.xcassets */,
 				67B4CEAB221B40C300E8AB99 /* LaunchScreen.storyboard */,
 				67B4CEAE221B40C300E8AB99 /* Info.plist */,
+				67B4CEBA221B60C400E8AB99 /* GoogleService-Info.plist */,
 			);
 			path = realTimeChat;
+			sourceTree = "<group>";
+		};
+		67B4CEB4221B4F3500E8AB99 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				67B4CEB5221B4F4A00E8AB99 /* images.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		67B4CEB7221B55D300E8AB99 /* viewCell */ = {
+			isa = PBXGroup;
+			children = (
+				67B4CEB8221B55EA00E8AB99 /* formcell.swift */,
+			);
+			path = viewCell;
+			sourceTree = "<group>";
+		};
+		830E510BFFD00E090744ECD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEBA377082494662B65FE71C /* Pods_realTimeChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8DB70FF40738EB2CA1D62E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FAF6BB0CD594B3577D8E747 /* Pods-realTimeChat.debug.xcconfig */,
+				158920ED65599AD9EBADC4F0 /* Pods-realTimeChat.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +120,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67B4CEB1221B40C300E8AB99 /* Build configuration list for PBXNativeTarget "realTimeChat" */;
 			buildPhases = (
+				3735D4E82F08B740C1FF2818 /* [CP] Check Pods Manifest.lock */,
 				67B4CE9B221B40C100E8AB99 /* Sources */,
 				67B4CE9C221B40C100E8AB99 /* Frameworks */,
 				67B4CE9D221B40C100E8AB99 /* Resources */,
+				B626B66FBB91298435EFCACF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,11 +175,54 @@
 			files = (
 				67B4CEAD221B40C300E8AB99 /* LaunchScreen.storyboard in Resources */,
 				67B4CEAA221B40C300E8AB99 /* Assets.xcassets in Resources */,
+				67B4CEBB221B60C500E8AB99 /* GoogleService-Info.plist in Resources */,
 				67B4CEA8221B40C100E8AB99 /* Main.storyboard in Resources */,
+				67B4CEB6221B4F4A00E8AB99 /* images.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3735D4E82F08B740C1FF2818 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-realTimeChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B626B66FBB91298435EFCACF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-realTimeChat/Pods-realTimeChat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-realTimeChat/Pods-realTimeChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		67B4CE9B221B40C100E8AB99 /* Sources */ = {
@@ -137,6 +231,7 @@
 			files = (
 				67B4CEA5221B40C100E8AB99 /* ViewController.swift in Sources */,
 				67B4CEA3221B40C100E8AB99 /* AppDelegate.swift in Sources */,
+				67B4CEB9221B55EA00E8AB99 /* formcell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +375,7 @@
 		};
 		67B4CEB2221B40C300E8AB99 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FAF6BB0CD594B3577D8E747 /* Pods-realTimeChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +393,7 @@
 		};
 		67B4CEB3221B40C300E8AB99 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 158920ED65599AD9EBADC4F0 /* Pods-realTimeChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
