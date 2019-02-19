@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67193ACF221C1246000F37D6 /* RoomsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67193ACE221C1246000F37D6 /* RoomsVC.swift */; };
+		67193AD2221C48AA000F37D6 /* Rooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67193AD1221C48AA000F37D6 /* Rooms.swift */; };
+		67193AD4221C4B32000F37D6 /* ChatRoomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67193AD3221C4B32000F37D6 /* ChatRoomVC.swift */; };
 		67B4CEA3221B40C100E8AB99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B4CEA2221B40C100E8AB99 /* AppDelegate.swift */; };
 		67B4CEA5221B40C100E8AB99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B4CEA4221B40C100E8AB99 /* ViewController.swift */; };
 		67B4CEA8221B40C100E8AB99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B4CEA6221B40C100E8AB99 /* Main.storyboard */; };
@@ -21,6 +24,9 @@
 /* Begin PBXFileReference section */
 		0FAF6BB0CD594B3577D8E747 /* Pods-realTimeChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realTimeChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-realTimeChat/Pods-realTimeChat.debug.xcconfig"; sourceTree = "<group>"; };
 		158920ED65599AD9EBADC4F0 /* Pods-realTimeChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realTimeChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-realTimeChat/Pods-realTimeChat.release.xcconfig"; sourceTree = "<group>"; };
+		67193ACE221C1246000F37D6 /* RoomsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsVC.swift; sourceTree = "<group>"; };
+		67193AD1221C48AA000F37D6 /* Rooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rooms.swift; sourceTree = "<group>"; };
+		67193AD3221C4B32000F37D6 /* ChatRoomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomVC.swift; sourceTree = "<group>"; };
 		67B4CE9F221B40C100E8AB99 /* realTimeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = realTimeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B4CEA2221B40C100E8AB99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67B4CEA4221B40C100E8AB99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +52,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67193ACD221C11F6000F37D6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				67B4CEA4221B40C100E8AB99 /* ViewController.swift */,
+				67193ACE221C1246000F37D6 /* RoomsVC.swift */,
+				67193AD3221C4B32000F37D6 /* ChatRoomVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		67193AD0221C4896000F37D6 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				67193AD1221C48AA000F37D6 /* Rooms.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 		67B4CE96221B40C100E8AB99 = {
 			isa = PBXGroup;
 			children = (
@@ -67,10 +91,11 @@
 		67B4CEA1221B40C100E8AB99 /* realTimeChat */ = {
 			isa = PBXGroup;
 			children = (
-				67B4CEB7221B55D300E8AB99 /* viewCell */,
+				67193AD0221C4896000F37D6 /* models */,
 				67B4CEB4221B4F3500E8AB99 /* resource */,
+				67B4CEB7221B55D300E8AB99 /* viewCell */,
+				67193ACD221C11F6000F37D6 /* Controllers */,
 				67B4CEA2221B40C100E8AB99 /* AppDelegate.swift */,
-				67B4CEA4221B40C100E8AB99 /* ViewController.swift */,
 				67B4CEA6221B40C100E8AB99 /* Main.storyboard */,
 				67B4CEA9221B40C300E8AB99 /* Assets.xcassets */,
 				67B4CEAB221B40C300E8AB99 /* LaunchScreen.storyboard */,
@@ -234,8 +259,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				67B4CEA5221B40C100E8AB99 /* ViewController.swift in Sources */,
+				67193AD4221C4B32000F37D6 /* ChatRoomVC.swift in Sources */,
+				67193ACF221C1246000F37D6 /* RoomsVC.swift in Sources */,
 				67B4CEA3221B40C100E8AB99 /* AppDelegate.swift in Sources */,
 				67B4CEB9221B55EA00E8AB99 /* formcell.swift in Sources */,
+				67193AD2221C48AA000F37D6 /* Rooms.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
