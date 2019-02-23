@@ -10,6 +10,8 @@
 		67193ACF221C1246000F37D6 /* RoomsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67193ACE221C1246000F37D6 /* RoomsVC.swift */; };
 		67193AD2221C48AA000F37D6 /* Rooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67193AD1221C48AA000F37D6 /* Rooms.swift */; };
 		67193AD4221C4B32000F37D6 /* ChatRoomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67193AD3221C4B32000F37D6 /* ChatRoomVC.swift */; };
+		678B8C0A221D8773009B8F5F /* chatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678B8C09221D8773009B8F5F /* chatCell.swift */; };
+		678B8C0C221D8E22009B8F5F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678B8C0B221D8E22009B8F5F /* Message.swift */; };
 		67B4CEA3221B40C100E8AB99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B4CEA2221B40C100E8AB99 /* AppDelegate.swift */; };
 		67B4CEA5221B40C100E8AB99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B4CEA4221B40C100E8AB99 /* ViewController.swift */; };
 		67B4CEA8221B40C100E8AB99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B4CEA6221B40C100E8AB99 /* Main.storyboard */; };
@@ -27,6 +29,8 @@
 		67193ACE221C1246000F37D6 /* RoomsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsVC.swift; sourceTree = "<group>"; };
 		67193AD1221C48AA000F37D6 /* Rooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rooms.swift; sourceTree = "<group>"; };
 		67193AD3221C4B32000F37D6 /* ChatRoomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomVC.swift; sourceTree = "<group>"; };
+		678B8C09221D8773009B8F5F /* chatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatCell.swift; sourceTree = "<group>"; };
+		678B8C0B221D8E22009B8F5F /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		67B4CE9F221B40C100E8AB99 /* realTimeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = realTimeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B4CEA2221B40C100E8AB99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67B4CEA4221B40C100E8AB99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				67193AD1221C48AA000F37D6 /* Rooms.swift */,
+				678B8C0B221D8E22009B8F5F /* Message.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -117,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				67B4CEB8221B55EA00E8AB99 /* formcell.swift */,
+				678B8C09221D8773009B8F5F /* chatCell.swift */,
 			);
 			path = viewCell;
 			sourceTree = "<group>";
@@ -263,6 +269,8 @@
 				67193ACF221C1246000F37D6 /* RoomsVC.swift in Sources */,
 				67B4CEA3221B40C100E8AB99 /* AppDelegate.swift in Sources */,
 				67B4CEB9221B55EA00E8AB99 /* formcell.swift in Sources */,
+				678B8C0C221D8E22009B8F5F /* Message.swift in Sources */,
+				678B8C0A221D8773009B8F5F /* chatCell.swift in Sources */,
 				67193AD2221C48AA000F37D6 /* Rooms.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
